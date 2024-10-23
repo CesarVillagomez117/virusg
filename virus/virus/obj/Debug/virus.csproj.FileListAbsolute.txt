@@ -1,0 +1,14 @@
+C:\Users\CC-PC47\Documents\virus1\virus\virus\obj\Debug\virus.csprojResolveAssemblyReference.cache
+C:\Users\CC-PC47\Documents\virus1\virus\virus\obj\Debug\virus.MainForm.resources
+C:\Users\CC-PC47\Documents\virus1\virus\virus\obj\Debug\virus.csproj.GenerateResource.Cache
+C:\Users\CC-PC47\Documents\virus1\virus\virus\bin\Debug\virus.exe
+C:\Users\CC-PC47\Documents\virus1\virus\virus\bin\Debug\virus.pdb
+C:\Users\CC-PC47\Documents\virus1\virus\virus\obj\Debug\virus.exe
+C:\Users\CC-PC47\Documents\virus1\virus\virus\obj\Debug\virus.pdb
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\bin\Debug\virus.exe
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\bin\Debug\virus.pdb
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.csprojResolveAssemblyReference.cache
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.MainForm.resources
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.csproj.GenerateResource.Cache
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.exe
+C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.pdb
