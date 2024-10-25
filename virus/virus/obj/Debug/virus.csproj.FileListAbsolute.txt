@@ -12,3 +12,10 @@ C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.MainForm.resources
 C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.csproj.GenerateResource.Cache
 C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.exe
 C:\Users\CC-PC47\Downloads\virus1\virus\virus\obj\Debug\virus.pdb
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\obj\Debug\virus.csprojResolveAssemblyReference.cache
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\obj\Debug\virus.MainForm.resources
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\obj\Debug\virus.csproj.GenerateResource.Cache
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\bin\Debug\virus.exe
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\bin\Debug\virus.pdb
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\obj\Debug\virus.exe
+C:\Users\cve21\OneDrive\Documentos\virus1-20241025T030242Z-001\virus1\virus\virus\obj\Debug\virus.pdb

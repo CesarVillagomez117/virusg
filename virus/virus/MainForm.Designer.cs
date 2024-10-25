@@ -38,14 +38,14 @@ namespace virus
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
+			this.TXTnombre = new System.Windows.Forms.Label();
+			this.TXTapellidoP = new System.Windows.Forms.Label();
+			this.TXTapellidoM = new System.Windows.Forms.Label();
+			this.TXTtelefono = new System.Windows.Forms.Label();
+			this.TXTdireccion = new System.Windows.Forms.Label();
+			this.TXTsemestre = new System.Windows.Forms.Label();
+			this.TXTfecha = new System.Windows.Forms.Label();
+			this.LBLrfc = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.textBox3 = new System.Windows.Forms.TextBox();
@@ -54,6 +54,7 @@ namespace virus
 			this.textBox8 = new System.Windows.Forms.TextBox();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.comboBox2 = new System.Windows.Forms.ComboBox();
+			this.button1 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -66,70 +67,70 @@ namespace virus
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
-			// label1
+			// TXTnombre
 			// 
-			this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
-			this.label1.Location = new System.Drawing.Point(153, 26);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
-			this.label1.TabIndex = 1;
-			this.label1.Text = "nombre";
+			this.TXTnombre.Cursor = System.Windows.Forms.Cursors.Arrow;
+			this.TXTnombre.Location = new System.Drawing.Point(153, 26);
+			this.TXTnombre.Name = "TXTnombre";
+			this.TXTnombre.Size = new System.Drawing.Size(100, 23);
+			this.TXTnombre.TabIndex = 1;
+			this.TXTnombre.Text = "nombre";
 			// 
-			// label2
+			// TXTapellidoP
 			// 
-			this.label2.Location = new System.Drawing.Point(153, 68);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
-			this.label2.TabIndex = 2;
-			this.label2.Text = "apellido P";
+			this.TXTapellidoP.Location = new System.Drawing.Point(153, 68);
+			this.TXTapellidoP.Name = "TXTapellidoP";
+			this.TXTapellidoP.Size = new System.Drawing.Size(100, 23);
+			this.TXTapellidoP.TabIndex = 2;
+			this.TXTapellidoP.Text = "apellido P";
 			// 
-			// label3
+			// TXTapellidoM
 			// 
-			this.label3.Location = new System.Drawing.Point(137, 106);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
-			this.label3.TabIndex = 3;
-			this.label3.Text = "apellido M";
+			this.TXTapellidoM.Location = new System.Drawing.Point(137, 106);
+			this.TXTapellidoM.Name = "TXTapellidoM";
+			this.TXTapellidoM.Size = new System.Drawing.Size(100, 23);
+			this.TXTapellidoM.TabIndex = 3;
+			this.TXTapellidoM.Text = "apellido M";
 			// 
-			// label4
+			// TXTtelefono
 			// 
-			this.label4.Location = new System.Drawing.Point(96, 150);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(100, 23);
-			this.label4.TabIndex = 4;
-			this.label4.Text = "teléfono";
+			this.TXTtelefono.Location = new System.Drawing.Point(96, 150);
+			this.TXTtelefono.Name = "TXTtelefono";
+			this.TXTtelefono.Size = new System.Drawing.Size(100, 23);
+			this.TXTtelefono.TabIndex = 4;
+			this.TXTtelefono.Text = "teléfono";
 			// 
-			// label5
+			// TXTdireccion
 			// 
-			this.label5.Location = new System.Drawing.Point(96, 190);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(100, 23);
-			this.label5.TabIndex = 5;
-			this.label5.Text = "dirección";
+			this.TXTdireccion.Location = new System.Drawing.Point(96, 190);
+			this.TXTdireccion.Name = "TXTdireccion";
+			this.TXTdireccion.Size = new System.Drawing.Size(100, 23);
+			this.TXTdireccion.TabIndex = 5;
+			this.TXTdireccion.Text = "dirección";
 			// 
-			// label6
+			// TXTsemestre
 			// 
-			this.label6.Location = new System.Drawing.Point(96, 233);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(100, 23);
-			this.label6.TabIndex = 6;
-			this.label6.Text = "semestre ";
+			this.TXTsemestre.Location = new System.Drawing.Point(96, 233);
+			this.TXTsemestre.Name = "TXTsemestre";
+			this.TXTsemestre.Size = new System.Drawing.Size(100, 23);
+			this.TXTsemestre.TabIndex = 6;
+			this.TXTsemestre.Text = "semestre ";
 			// 
-			// label7
+			// TXTfecha
 			// 
-			this.label7.Location = new System.Drawing.Point(68, 267);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(100, 23);
-			this.label7.TabIndex = 7;
-			this.label7.Text = "Fecha Nacimiento ";
+			this.TXTfecha.Location = new System.Drawing.Point(68, 267);
+			this.TXTfecha.Name = "TXTfecha";
+			this.TXTfecha.Size = new System.Drawing.Size(100, 23);
+			this.TXTfecha.TabIndex = 7;
+			this.TXTfecha.Text = "Fecha Nacimiento ";
 			// 
-			// label8
+			// LBLrfc
 			// 
-			this.label8.Location = new System.Drawing.Point(42, 308);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(100, 23);
-			this.label8.TabIndex = 8;
-			this.label8.Text = "RFC ";
+			this.LBLrfc.Location = new System.Drawing.Point(37, 308);
+			this.LBLrfc.Name = "LBLrfc";
+			this.LBLrfc.Size = new System.Drawing.Size(100, 23);
+			this.LBLrfc.TabIndex = 8;
+			this.LBLrfc.Text = "RFC ";
 			// 
 			// textBox1
 			// 
@@ -2738,7 +2739,6 @@ namespace virus
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(121, 21);
 			this.comboBox1.TabIndex = 18;
-			this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.ComboBox1SelectedIndexChanged);
 			// 
 			// comboBox2
 			// 
@@ -2755,11 +2755,22 @@ namespace virus
 			this.comboBox2.Size = new System.Drawing.Size(121, 21);
 			this.comboBox2.TabIndex = 19;
 			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(281, 393);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.TabIndex = 20;
+			this.button1.Text = "calcular";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(592, 460);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.comboBox2);
 			this.Controls.Add(this.comboBox1);
 			this.Controls.Add(this.textBox8);
@@ -2768,14 +2779,14 @@ namespace virus
 			this.Controls.Add(this.textBox3);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.textBox1);
-			this.Controls.Add(this.label8);
-			this.Controls.Add(this.label7);
-			this.Controls.Add(this.label6);
-			this.Controls.Add(this.label5);
-			this.Controls.Add(this.label4);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.LBLrfc);
+			this.Controls.Add(this.TXTfecha);
+			this.Controls.Add(this.TXTsemestre);
+			this.Controls.Add(this.TXTdireccion);
+			this.Controls.Add(this.TXTtelefono);
+			this.Controls.Add(this.TXTapellidoM);
+			this.Controls.Add(this.TXTapellidoP);
+			this.Controls.Add(this.TXTnombre);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "MainForm";
 			this.Text = "virus";
@@ -2783,6 +2794,7 @@ namespace virus
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.ComboBox comboBox2;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.TextBox textBox8;
@@ -2791,14 +2803,14 @@ namespace virus
 		private System.Windows.Forms.TextBox textBox3;
 		private System.Windows.Forms.TextBox textBox2;
 		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label LBLrfc;
+		private System.Windows.Forms.Label TXTfecha;
+		private System.Windows.Forms.Label TXTsemestre;
+		private System.Windows.Forms.Label TXTdireccion;
+		private System.Windows.Forms.Label TXTtelefono;
+		private System.Windows.Forms.Label TXTapellidoM;
+		private System.Windows.Forms.Label TXTapellidoP;
+		private System.Windows.Forms.Label TXTnombre;
 		private System.Windows.Forms.PictureBox pictureBox1;
 	}
 }
